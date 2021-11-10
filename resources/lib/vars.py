@@ -23,7 +23,7 @@ TIME_FRMT    = xbmc.getRegion('time').replace(':%S', '')
 DATA_PATH    = xbmcvfs.translatePath(f"special://profile/addon_data/{ADDONID}/")
 CDN          = "akc" if ADDON.getSetting('cdn') == "Akamai" else "l3c"
 
-BASE_URL     = "freegamez.ga"
+BASE_URL     = "freesports.ddns.net"
 USER_AGENT   = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
 HEADERS      = {'User-Agent': USER_AGENT}
 
